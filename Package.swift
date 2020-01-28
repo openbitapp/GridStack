@@ -7,6 +7,7 @@ let package = Package(
     name: "GridStack",
     platforms: [
 		.iOS(.v13),
+        .watchOS(.v6),
 		.macOS(.v10_15),
 		.tvOS(.v13)
 	],
